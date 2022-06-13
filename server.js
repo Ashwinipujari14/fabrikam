@@ -27,6 +27,7 @@ var onDefault=function(req, res){
                     " <li>     Human Resources</li>"+
                     " <li>     Accounting</li>"+
                     " <li>     Project Management </li>"+
+                    " <li>     Quit    </li>"
              "</ol>");
 };
 app.get("/",onDefault);  // Request handler functions are registered
